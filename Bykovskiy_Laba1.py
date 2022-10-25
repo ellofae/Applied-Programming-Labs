@@ -4,6 +4,7 @@
 # В 4-м и 5-м пунктах хранение объектов одного класса реализовать в формате JSON, другого − в формате XML.
 
 import json
+import xml.etree.ElementTree as ET
 from abc import ABC
 from abc import abstractmethod
 
@@ -99,7 +100,7 @@ class Professor(Person):
         return self.email
 
 def main():
-    ## JSON file plugging into arrays of data
+    ## JSON file plugging into array of data
     stud = []
 
     with open("students.json") as f:
@@ -114,8 +115,17 @@ def main():
         stud1.InfoOnStudent()
 
     print("\n")
-    ## JSON file plugging into arrays of data
 
-    
+    # JSON file transfering CHANGED data to another json file
+    for student in data['students']:
+        del student['age']
+        student['courseNumber'] = None
+
+    with open('new_students.json', 'w') as f:
+        json.dump(data, f, indent = 2)
+
+
+    ## XML file plugging into array of data
+
 
 main()
