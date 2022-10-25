@@ -1,0 +1,11 @@
+{
+    "proffesors": [
+        {
+            "fullName": "Alexander Konev",
+            "age": 34,
+            "email": "konevprof@mail.ru",            
+            "statusInScience": "P.H.D. in Mathematics",
+            "officeNumber": 165
+        }
+    ]
+}

@@ -3,6 +3,7 @@
 # 4) Напишите классы для предметной области университета. Возможные классы: студент и преподаватель. 
 # В 4-м и 5-м пунктах хранение объектов одного класса реализовать в формате JSON, другого − в формате XML.
 
+import json
 from abc import ABC
 from abc import abstractmethod
 
@@ -44,7 +45,7 @@ class Person(ABC):
                 break
 
 class Student(Person):
-    def __init__(self, fullName, age, faculty, email = ""):
+    def __init__(self, fullName, age, faculty="", email = ""):
         self.faculty = faculty
         Person.__init__(self, fullName, age, email)
 
@@ -98,7 +99,23 @@ class Professor(Person):
         return self.email
 
 def main():
-    proffessor = Professor("Loi Mafas", 30, "P.H.D in Physics", 4, "prof@gmail.com")
-    person = Student("Mike Vazovski", 19, "Applied Informatic", "sergei.bykovskiy2003@gmail.com")
+    ## JSON file plugging into arrays of data
+    stud = []
+
+    with open("students.json") as f:
+        data = json.load(f)
+    for piece in data['students']:
+        stud.append(piece)
+
+    print("Amount of students: ", len(stud))
+    print("Student list: ")
+    for i in range(len(stud)):
+        stud1 = Student(stud[i]['fullName'], stud[i]['age'], stud[i]['faculty'], stud[i]['email'])
+        stud1.InfoOnStudent()
+
+    print("\n")
+    ## JSON file plugging into arrays of data
+
+    
 
 main()
