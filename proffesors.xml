@@ -1,0 +1,16 @@
+<proffesorsList>
+    <proffesor id="1">
+        <fullName>George Pofran</fullName>
+        <age>64</age>
+        <statusInScience>P.H.D. in Physics</statusInScience>
+        <officeNumber>274</officeNumber>
+        <email>proffesor_Pofran@gmail.com</email>
+    </proffesor>
+    <proffesor id="2">
+        <fullName>Alexey Imoniev</fullName>
+        <age>28</age>
+        <statusInScience>P.H.D. in Mathematics</statusInScience>
+        <officeNumber>126</officeNumber>
+        <email>alexImoniev@mail.ru</email>
+    </proffesor>
+</proffesorsList>
