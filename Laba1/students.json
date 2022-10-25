@@ -1,0 +1,16 @@
+{
+    "students": [
+        {
+            "fullName": "Sergei Bykovskiy",
+            "age": 19,
+            "email": "sergei.bykovskiy2003@gmail.com",
+            "faculty": "Applied Informatics"
+        },
+        {
+            "fullName": "Michail Lobanov",
+            "age": 21,
+            "email": "michailLobanov@main.com",
+            "faculty": "Applied Mathematics"
+        }
+    ]
+}
