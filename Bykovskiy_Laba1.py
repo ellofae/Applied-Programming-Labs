@@ -3,7 +3,10 @@
 # 4) Напишите классы для предметной области университета. Возможные классы: студент и преподаватель. 
 # В 4-м и 5-м пунктах хранение объектов одного класса реализовать в формате JSON, другого − в формате XML.
 
-class Person():
+from abc import ABC
+from abc import abstractmethod
+
+class Person(ABC):
     def __init__(self, fullName, age, email = ""):
         self.fullName = fullName
         self.email = email
@@ -18,9 +21,11 @@ class Person():
         except TypeError:
             print("Incorrect Type Error has been detected")
 
+    @abstractmethod
     def GetName(self):
         return self.fullName
-
+    
+    @abstractmethod
     def GetEmail(self):
         return self.email
 
@@ -53,6 +58,13 @@ class Student(Person):
     def InfoOnStudent(self):
         print(f"Student's name: {self.fullName}, faculty: {self.faculty}, age: {self.age}, email: {self.email} ")
 
+    # Overriding abstract methods
+    def GetName(self):
+        return "Mr. " + self.fullName
+    
+    def GetEmail(self):
+        return self.email
+
 class Professor(Person):
     def __init__(self, fullName, age, statusInScience, officeNumber = "", email = ""):
         Person.__init__(self, fullName, age, email)
@@ -73,15 +85,20 @@ class Professor(Person):
             new_office = input("Type in a new ofiice number: ")
             if any(char.isdigit() for char in new_office):
                 self.officeNumber = new_office
-                break
-                
+                break                
 
     def InfoOnProfessor(self):
         print(f"Professor's name: {self.fullName}, status in science: {self.statusInScience}, office number: {self.officeNumber}, age: {self.age}, email: {self.email} ")
-            
+
+    # Overriding abstract methods
+    def GetName(self):
+        return "Proffessor " + self.fullName
+    
+    def GetEmail(self):
+        return self.email
 
 def main():
     proffessor = Professor("Loi Mafas", 30, "P.H.D in Physics", 4, "prof@gmail.com")
     person = Student("Mike Vazovski", 19, "Applied Informatic", "sergei.bykovskiy2003@gmail.com")
-    
+
 main()
