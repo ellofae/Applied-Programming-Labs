@@ -3,10 +3,7 @@
 # 4) Напишите классы для предметной области университета. Возможные классы: студент и преподаватель. 
 # В 4-м и 5-м пунктах хранение объектов одного класса реализовать в формате JSON, другого − в формате XML.
 
-import email
 import json
-from pydoc import describe
-from this import d
 from xml.etree import ElementTree
 
 from abc import ABC
