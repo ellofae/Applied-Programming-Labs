@@ -1,0 +1,11 @@
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Luxx6\Desktop\СТАНКИН_2 курс\Прикладное программирование лабы\Лаба 2\winforms app\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
